@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LoneWalkerh Site</title>
+	<style>
+		/* Body styles */
+		body {
+			background-image: url("background6.jpg");
+			background-size: cover;
+			background-position: center;
+			font-family: Impact;
+			font-size: 24px;
+			color: #FFFB00;
+			text-align: center;
+			text-shadow: 2px 2px #000000;
+			margin: 0;
+			padding: 0;
+		}
+		
+		/* Logo styles */
+		#logo {
+			display: block;
+			margin: 0 auto;
+			max-width: 300px;
+			animation: fadeIn 1s ease-in-out forwards;
+			opacity: 0;
+		}
+
+		/* Heading styles */
+		h1 {
+			color: #0020D6;
+			font-size: 48px;
+			text-shadow: 4px 4px #000000;
+		}
+
+		/* Button styles */
+		.btn {
+			background-color: #09B0B8;
+			border: none;
+			color: #FFFB00;
+			padding: 20px;
+			font-size: 24px;
+			font-family: Impact;
+			border-radius: 20px;
+			cursor: pointer;
+			text-decoration: none;
+			box-shadow: 2px 2px #000000;
+			display: inline-block;
+			margin-top: 20px;
+			transition: all 0.3s ease-in-out;
+			opacity: 0;
+			transform: translateX(-50px);
+		}
+		
+		.btn:hover {
+			background-color: #FFFB00;
+			color: #0020D6;
+			box-shadow: 4px 4px #000000;
+		}
+
+		/* Animations */
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+				transform: translateY(-50px);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
+		@keyframes slideIn {
+			from {
+				opacity: 0;
+				transform: translateX(-50px);
+			}
+			to {
+				opacity: 1;
+				transform: translateX(0);
+			}
+		}
+
+		h1,
+		.btn {
+			animation: slideIn 1s ease-in-out forwards;
+		}
+	</style>
+</head>
+<body>
+	<img src="Screenshot_2023-02-13_182018-removebg-preview_1-modified.png" alt="Site Logo" id="logo">
+	<h1>Welcome to the Official LoneWalkerh Site!</h1>
+	<a href="https://streamlabs.com/lonewalkerh01/merch" target="_blank" class="btn">Merch Store</a>
+	<a href="https://www.youtube.com/channel/UCXVHbtbLvxoNRT9eMlfXAQA" target="_blank" class="btn">Youtube Channel</a>
+	<a href="https://solo.to/lonewalkerh" target="_blank" class="btn">All My Social Medias</a>
+</body>
+</html>
